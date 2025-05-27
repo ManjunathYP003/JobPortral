@@ -1,0 +1,37 @@
+/* .mail,.password::placeholder{
+    height: 28px;
+    width: 220pt; */
+
+button{
+    margin-left: 35%;
+    height: 68px;
+    width: 128px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+input{
+    height: 128px;
+    width: 100%;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.mail,.password{
+    padding: 30px;
+}
+.main{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: 1fr 1fr;
+}
+h1{
+    margin-top: 5%;
+    margin-left: 30pt;
+}
+button:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+}

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../hello"
+		},
+		{
+			"path": "../namastee"
+		},
+		{
+			"path": "../vs code"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "namastee"
+	}
+}

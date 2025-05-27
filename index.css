@@ -1,0 +1,225 @@
+.btn{
+    border-radius: 25px;
+    border:2px solid white;
+    background-color:black;
+    color: aliceblue;
+
+}
+.profile{
+    height: 80px;
+    width: 80px;
+    border: 3px solid rgba(15, 15, 71, 0.966);
+    border-radius: 50%;
+    text-align: center;
+}
+.btn:hover{
+    border-color: black;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 10px 1px rgb(0, 0, 255,.2);
+}
+.navbar{
+    position: relative;
+}
+.nav2{
+    height: 320pt;
+}
+/* body{
+    /* background-color: #5FBB97; */
+ 
+.top_companies{
+    display:grid;
+    grid-template-columns: repeat(6 ,200px);
+    grid-template-rows: 1fr 1fr ;
+    margin-top: 50pt;
+    align-items: center;
+    gap: 8px;
+    row-gap: 20px;
+    
+    
+}
+i{
+    padding:6px;
+}
+/* .datascince,.supplychain,.analaytics{
+    /* margin-top: 100pt; */
+    /* grid-column: 1 span;
+    padding: 20px;
+} */ 
+
+ .remonte,.mnc,.banking,.engineering,.software,.datascience,.analaytics,.sales,.fortune,.intrenship,.supplychains,.datascince{
+    height: 60px;
+    width: 180px;
+    
+    border:2px solid #dee8d7 ;
+    border-radius:15px ;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 15px;
+    
+ }
+ .remonte,.mnc,.banking,.engineering,.software,.datascience,.analaytics,.sales,.fortune,.intrenship,.supplychains,.datascince:hover{
+    box-shadow: 2px 2px 10px 1px rgba(0,0,255,.2);
+ }
+ .hiring{    display:grid;
+    grid-template-columns: repeat(4 ,300px);
+    grid-template-rows: 1fr 1fr ;
+    margin-top: 50pt;
+    align-items: center;
+    gap: 8px;
+    row-gap: 20px;
+    
+    
+}
+.multilc,.product,.bank,.hospitality{
+    height: 100px;
+    width: 240px;
+    
+    border:2px solid #dee8d7 ;
+    border-radius:15px ;
+    text-align: start;
+    font-size: large;
+    font-weight: bold;
+    padding: 15px;
+    display: flex;
+
+}
+.h{
+    margin-top: 15px;
+    margin-left: 36%;
+}
+img{
+    margin-bottom:40px ;
+}
+.multilc,.product{
+    display: flex;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(4,400px);
+    grid-template-rows:1fr ;
+    border:3px solid #dee8d7;
+    border-radius: 20px;
+    height: 350pt;
+}
+.resume,.apptitude,.skill{
+    margin-top: 25px;
+    border:3px solid #dee8d78f;
+    height: 300pt;
+    width: 300px;
+    gap: 10px;
+    border-radius: 20px;
+}
+.resume{
+    margin-left: 10px;
+    background: url("https://th.bing.com/th/id/OIP.Y15VBHvRNO4Oz4LzwXXwOAHaE7?rs=1&pid=ImgDetMain");
+    background-size:cover ;
+}
+.apptitude{
+    background: url("https://www.tndsoft.in/static/media/reactBanner2.5d9aa7cf7f013ece7fc5.png");
+    background-size: cover;
+}
+.skill{
+    background: url("https://www.corporateoffice.com/images/companies/affiliated-managers-group-inc-corporate-office-7aaea602-af8b-fd2f.jpg");
+    background-size: cover;
+}
+.discover,.preparations{
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    border:3px solid #dee8d7;
+    border-radius: 20px;
+    height: 350pt;
+}
+.popularroles,.info{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.fullstack,.mobile,.front,.technical,.data,.business,.cybersecurity,.branchmanager{
+    margin-left: 20px;
+    margin-top: 25px;
+    border:3px solid #dee8d78f;
+    height: 30pt;
+    width: 200px;
+    gap: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px 1px rgba(0,0,255,.2);
+   
+
+}
+.mobile{
+    width: 220px;
+}
+.y{
+    margin-left: 36%;
+    margin-bottom: 20px;
+}
+.img2{
+    /* margin-top: 10px; */
+    margin-left: 5px;
+    overflow: hidden;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+    height:600px ;
+    gap: 15px;
+}
+.h1{
+    margin-left: 18%;
+    grid-column: 2 span;
+    height:30pt;
+}
+.amazon,.tcs,.flipkart,.byjus,.accenture,.cognizant{
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border:3px solid #ace4838f;
+    height: 80pt;
+    width: 240px;
+    gap: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+}
+.amazon>.h9,.tcs>.h9,.flipkart>.h9,.byjus>.h9,.accenture>.h9,.cognizant>.h9{
+    font-size: small;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+.preparations{
+    height: 380pt;
+}
+.amazon,.flipkart,.byjus,.accenture,.cognizant,.tcs{
+    border: 4px solid transparent ;
+    border-image:url("https://th.bing.com/th/id/OIP.mVPs2c6HWB3a2cA4XmkotAAAAA?rs=1&pid=ImgDetMain")30 round;
+    filter: drop-shadow(3px 3px 3px rgba(0,0,255,.2));
+    border-radius: 5px;
+    
+}
+.amazon>img,.tcs>img,.flipkart>img,.byjus>img,.accenture>img,.cognizant>img{
+    border:3px solid #ace4838f;
+    border-radius: 5px;
+
+}
+/* .amazon>#h7:hover{
+    filter: drop-shadow(3px 3px 3px rgba(0,0,255,.2));
+text-shadow: 2px 2px 10px 1px red;
+} */
+ .footer{
+    margin-top: 60px;
+    color: #dee8d7;
+    background-color: #0c243f;
+ }
+
